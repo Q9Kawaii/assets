@@ -1,0 +1,21 @@
+.interactivecards {
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    display: flex;
+    width: 500px;
+    height: 112px;
+    justify-content: space-around;
+  }
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: red;
+    transition: flex 0.5s;
+  }
+  .cards:hover {
+    flex: 3;
+  }
